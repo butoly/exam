@@ -1,3 +1,5 @@
+from pandas import DataFrame
+
 class Database:
     def __init__(self):
         self._data: DataFrame
